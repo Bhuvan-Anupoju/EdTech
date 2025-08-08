@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/Logo2.jpg" type="image/jpg" />
+    <title>Rapid Skill</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <picture>
+            <img src="images/Logo.webp" alt="Logo" />
+          </picture>
+        </div>
+
+        <div class="burger" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Courses</a>
+          <a href="#">Pricing</a>
+          <a href="#">FAQ</a>
+          <div class="dropdown">
+            <a href="#">Pages ▼</a>
+            <div class="dropdown-content">
+              <a href="#">Instructors</a>
+              <a href="#">Student Registration</a>
+              <a href="#">Blogs</a>
+            </div>
+          </div>
+          <a href="#">Login</a>
+          <a href="#">Contact Us</a>
+        </div>
+
+        <a href="#" class="get-started">Getting Started</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <h1 style="color: white">Unleash your <span class="typing"></span></h1>
+      <p style="color: white">
+        Start your journey towards leadership with our online video courses. New
+        courses added every month.
+      </p>
+      <div class="hero-buttons">
+        <a href="#" class="btn-primary">Explore Courses</a>
+        <a href="#" class="btn-secondary">Start Learning</a>
+      </div>
+    </section>
+    <!-- Floating Icons -->
+    <div class="floating-icons">
+      <a href="https://wa.me/your-number" target="_blank">
+        <img src="images/bot.webp" alt="WhatsApp" />
+      </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
